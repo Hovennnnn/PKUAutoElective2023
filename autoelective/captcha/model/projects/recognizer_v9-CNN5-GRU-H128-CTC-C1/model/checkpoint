@@ -1,0 +1,2 @@
+model_checkpoint_path: "recognizer_v9-CNN5-GRU-H128-CTC-C1.model-90000"
+all_model_checkpoint_paths: "recognizer_v9-CNN5-GRU-H128-CTC-C1.model-90000"
