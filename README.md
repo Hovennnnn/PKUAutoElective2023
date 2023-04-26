@@ -12,7 +12,7 @@
 
 ## 补充：
 
-该项目的验证码识别模型在 Python3.8.16，TensorFlow-gpu2.12.0 环境下进行训练和测试，使用 40w 张图片进行训练，测试集上能达到 98%的准确率。使用 cpu 识别单张图片耗时 10-30ms，远远低于使用打码平台的耗时。
+该项目的验证码识别模型在 Python3.8.16，TensorFlow-gpu2.12.0 环境下进行训练和测试，使用 60w 张图片进行训练，测试集上能达到 98%的准确率。使用 cpu 识别单张图片耗时 10-30ms，远远低于使用打码平台的耗时。
 
 ps: 验证码训练集并非来自选课网，而是使用 Kaptcha 工具模仿生成（图片样例见[test/data](./test/data)），因此不保证在选课网上能达到较高的准确率，但该模型可以作为预训练模型或用于自举（参考项目：[https://github.com/SpiritedAwayCN/ElectiveCaptCha](https://github.com/SpiritedAwayCN/ElectiveCaptCha))
 
