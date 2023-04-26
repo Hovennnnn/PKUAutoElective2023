@@ -13,7 +13,7 @@ ERROR_LOG_DIR           = absp("../log/error")
 REQUEST_LOG_DIR         = absp("../log/request/")
 WEB_LOG_DIR             = absp("../log/web/")
 
-CNN_MODEL_FILE          = "recognizer_v9-CNN5-GRU-H128-CTC-C1"
+CNN_MODEL_FILE          = "recognizer_v10-CNN5-GRU-H128-CTC-C1"
 USER_AGENTS_TXT_GZ      = absp("../user_agents.txt.gz")
 USER_AGENTS_USER_TXT    = absp("../user_agents.user.txt")
 DEFAULT_CONFIG_INI      = absp("../config.ini")

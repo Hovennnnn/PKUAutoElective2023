@@ -119,7 +119,7 @@ class Predict:
 
 if __name__ == '__main__':
 
-    predict = Predict(project_name="recognizer_v9-CNN5-GRU-H128-CTC-C1")
+    predict = Predict(project_name="recognizer_v10-CNN5-GRU-H128-CTC-C1")
     # if(len(sys.argv) > 2):
     #     predict.testing(image_dir=os.path.join("C:/Users/matebook14/Documents/codefield/java_code/figure_generator", sys.argv[2]) , limit=None)
     # else:

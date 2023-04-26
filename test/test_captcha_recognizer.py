@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 # File: test_cnn.py
 # Created Date: 2021-03-10
+# Edited Date: 2023-04-26
 # Author: Rabbit
 # --------------------------------
 # Copyright (c) 2021 Rabbit
@@ -42,7 +43,6 @@ def test_captcha(r, code=None):
 def main():
     r = CaptchaRecognizer(CNN_MODEL_FILE)
     test_captcha(r)
-    test_captcha(r, "mgmnx")
 
 if __name__ == "__main__":
     main()
