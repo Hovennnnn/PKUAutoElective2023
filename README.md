@@ -1,6 +1,6 @@
 # PKUAutoElective2023
 
-北大选课网 **补退选** 阶段自动选课小工具 v6.0.0.2 (2023.02.20)
+北大选课网 **补退选** 阶段自动选课小工具 (2023.02.20)
 
 更新了**验证码识别模型**，使用 CNN+GRU+CTC 的经典网络识别不定长验证码（4~5 个字符），训练过程使用了项目[captcha_trainer](https://github.com/kerlomz/captcha_trainer)
 
