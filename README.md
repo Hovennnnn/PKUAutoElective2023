@@ -4,7 +4,7 @@
 
 适配 2023 年春季学期北大选课网环境，目前支持 `本科生（含辅双）` 和 `研究生` 选课
 
-本项目在 [zhongxinghong/PKUAutoElective](https://github.com/zhongxinghong/PKUAutoElective)上进行修改，仅将验证码识别模型进行替换，其余使用方法参照原项目
+本项目在 [zhongxinghong/PKUAutoElective](https://github.com/zhongxinghong/PKUAutoElective)上进行修改，仅将验证码识别模型进行替换，不需要安装Pytorch，安装TensorFlow即可。其余使用方法参照原项目
 
 ---
 
