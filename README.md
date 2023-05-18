@@ -17,14 +17,26 @@
 ps: 验证码训练集使用 Kaptcha 工具模仿生成（图片样例见[test/data](./test/data)），在选课网上能达到较高的准确率（96%以上），该模型也可以作为预训练模型或用于自举（参考项目：[https://github.com/zhongxinghong/PKUElectiveCaptcha2021Spring](https://github.com/zhongxinghong/PKUElectiveCaptcha2021Spring/blob/master/bootstrap.py))
 
 ---
+
+## 注意事项
+
+特地将一些重要的说明提前写在这里，希望能得到足够的重视
+
+1. 不要使用过低的刷新间隔，以免对选课网服务器造成压力，建议时间间隔不小于 4 秒
+2. 选课网存在 IP 级别的限流，访问过于频繁可能会导致 IP 被封禁
+
+---
+
 ## 项目安装
-（以下是对zhongxinghong大佬项目[https://github.com/zhongxinghong/PKUAutoElective](https://github.com/zhongxinghong/PKUAutoElective)使用说明的修改，主要是说明**安装过程**，更多细节请参照原项目）
+
+（以下是对 zhongxinghong 大佬项目[https://github.com/zhongxinghong/PKUAutoElective](https://github.com/zhongxinghong/PKUAutoElective)使用说明的修改，主要是说明**安装过程**，更多细节请参照原项目）
 
 ### Python 3
 
 该项目至少需要 Python 3，可以从 [Python 官网](https://www.python.org/) 下载并安装（项目开发环境为 Python 3.8.16）
 
 例如在 Linux 下运行：
+
 ```console
 $ apt-get install python3
 ```
@@ -34,6 +46,7 @@ $ apt-get install python3
 下载这个 repo 至本地。点击右上角的 `Code -> Download ZIP` 即可下载
 
 对于 git 命令行：
+
 ```console
 $ git clone https://github.com/Hovennnnn/PKUAutoElective2023.git
 ```
@@ -41,16 +54,17 @@ $ git clone https://github.com/Hovennnnn/PKUAutoElective2023.git
 ### Packages
 
 安装依赖包（该示例中使用清华镜像源以加快下载速度）
+
 ```console
 $ pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-
 
 TensorFlow 安装时间可能比较长，需耐心等待
 
 ### 验证码识别模块测试
 
 这个测试旨在检查与验证码识别模块相关的依赖包是否正确安装，尤其是 TensorFlow, OpenCV
+
 ```console
 $ cd test/
 $ python3 test_captcha_recognizer.py
@@ -97,19 +111,11 @@ Captcha('wd55m') True
 Captcha('wda3') True
 ```
 
-
-## 注意事项
-
-特地将一些重要的说明提前写在这里，希望能得到足够的重视
-
-1. 不要使用过低的刷新间隔，以免对选课网服务器造成压力，建议时间间隔不小于 4 秒
-2. 选课网存在 IP 级别的限流，访问过于频繁可能会导致 IP 被封禁
-
 ## 责任须知
 
 - 你可以修改和使用这个项目，但请自行承担由此造成的一切后果
 - 严禁在公共场合扩散这个项目，以免给你我都造成不必要的麻烦
-  
+
 ---
 
 再次鸣谢各位前辈对该项目的贡献！
