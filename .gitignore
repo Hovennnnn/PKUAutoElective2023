@@ -9,4 +9,3 @@ __pycache__/
 /figure
 config.ini
 user_agents.user.txt
-bootstrap.py
