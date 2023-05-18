@@ -65,11 +65,46 @@ TensorFlow 安装时间可能比较长，需耐心等待
 $ cd test/
 $ python3 test_captcha_recognizer.py
 
-Captcha('er47') True
-Captcha('rskh') True
-Captcha('uesg') True
-Captcha('skwc') True
-Captcha('mmfk') True
+识别结果：2a2m，耗时：0.12247776985168457
+Captcha('2a2m') True
+识别结果：2a3cx，耗时：0.013575553894042969
+Captcha('2a3cx') True
+识别结果：2a5c，耗时：0.016000032424926758
+Captcha('2a5c') True
+识别结果：2anwx，耗时：0.017246723175048828
+Captcha('2anwx') True
+识别结果：2ega，耗时：0.01694774627685547
+Captcha('2ega') True
+识别结果：cecc，耗时：0.016101598739624023
+Captcha('cecc') True
+识别结果：dnwp6，耗时：0.014996767044067383
+Captcha('dnwp6') True
+识别结果：dnynw，耗时：0.015755653381347656
+Captcha('dnynw') True
+识别结果：dp4y，耗时：0.015390634536743164
+Captcha('dp4y') True
+识别结果：mgmn，耗时：0.016569137573242188
+Captcha('mgmn') True
+识别结果：mgnd，耗时：0.015115499496459961
+Captcha('mgnd') True
+识别结果：n4efg，耗时：0.013999700546264648
+Captcha('n4efg') True
+识别结果：n5edf，耗时：0.01500082015991211
+Captcha('n5edf') True
+识别结果：n6ad，耗时：0.017334461212158203
+Captcha('n6ad') True
+识别结果：nnman，耗时：0.014373779296875
+Captcha('nnman') True
+识别结果：penn，耗时：0.014000177383422852
+Captcha('penn') True
+识别结果：pf32，耗时：0.01499795913696289
+Captcha('pf32') True
+识别结果：wd54，耗时：0.014998674392700195
+Captcha('wd54') True
+识别结果：wd55m，耗时：0.01399850845336914
+Captcha('wd55m') True
+识别结果：wda3，耗时：0.015000343322753906
+Captcha('wda3') True
 ```
 
 
