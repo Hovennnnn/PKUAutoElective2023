@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# File: bootstrap.py
-# Created Date: 2021-03-07
-# Author: Rabbit
-# --------------------------------
-# Copyright (c) 2021 Rabbit
-
 import os
 import re
 import time

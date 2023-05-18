@@ -16,7 +16,7 @@
 - 使用 60w 张图片进行训练，测试集上能达到 98%的准确率。
 - 使用 cpu 识别单张图片平均耗时 10-30ms，准确率和耗时均优于打码平台。
 
-ps: 验证码训练集使用 Kaptcha 工具模仿生成（图片样例见[test/data](./test/data)），在选课网上能达到较高的准确率（96%以上），该模型也可以作为预训练模型或用于自举（参考项目：[https://github.com/zhongxinghong/PKUElectiveCaptcha2021Spring](https://github.com/zhongxinghong/PKUElectiveCaptcha2021Spring/blob/master/bootstrap.py))
+ps: 验证码训练集使用 Kaptcha 工具模仿生成（图片样例见[test/data](./test/data)），在选课网上能达到较高的准确率（96%以上），该模型也可以作为预训练模型或用于自举（[bootstrap.py](./bootstrap.py)，参考项目：[https://github.com/zhongxinghong/PKUElectiveCaptcha2021Spring](https://github.com/zhongxinghong/PKUElectiveCaptcha2021Spring/blob/master/bootstrap.py))
 
 ---
 
