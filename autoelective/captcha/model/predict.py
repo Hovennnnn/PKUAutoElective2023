@@ -115,16 +115,3 @@ class Predict:
         )
         print(f"识别结果：{predict_text}，耗时：{time.time() - st}")
         return predict_text
-
-
-if __name__ == '__main__':
-
-    predict = Predict(project_name="recognizer_v11-CNN5-GRU-H128-CTC-C1")
-    # if(len(sys.argv) > 2):
-    #     predict.testing(image_dir=os.path.join("C:/Users/matebook14/Documents/codefield/java_code/figure_generator", sys.argv[2]) , limit=None)
-    # else:
-    #     predict.testing(image_dir=r"C:\Users\matebook14\Documents\codefield\java_code\figure_generator\figure", limit=None)
-    predict.startSession()
-    predict.predictOneCaptcha(r"C:\Users\matebook14\Documents\codefield\java_code\figure_generator\figure\2a2m_1675139076.jpg")
-    predict.predictOneCaptcha(r"C:\Users\matebook14\Documents\codefield\java_code\figure_generator\figure\2fpg_1675139755.jpg")
-    predict.closeSession()
