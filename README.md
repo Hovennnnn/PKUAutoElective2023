@@ -45,7 +45,7 @@ $ apt-get install python3
 
 下载这个 repo 至本地。点击右上角的 `Code -> Download ZIP` 即可下载
 
-对于 git 命令行：
+（或）对于 git 命令行：
 
 ```console
 $ git clone https://github.com/Hovennnnn/PKUAutoElective2023.git
