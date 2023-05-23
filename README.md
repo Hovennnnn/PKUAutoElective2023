@@ -10,6 +10,10 @@
 
 ---
 
+如果不想用TensorFlow和Pytorch，还有一个使用ddddocr库的fork：[https://github.com/Hovennnnn/PKUAutoElective](https://github.com/Hovennnnn/PKUAutoElective)
+
+---
+
 ## 模型性能：
 
 - 该项目的验证码识别模型在 Python3.8.16，TensorFlow-gpu2.12.0 环境下进行训练和测试
