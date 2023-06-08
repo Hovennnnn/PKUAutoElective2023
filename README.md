@@ -10,7 +10,7 @@
 
 ---
 
-如果不想用TensorFlow和Pytorch，还有一个使用ddddocr库的fork：[https://github.com/Hovennnnn/PKUAutoElective](https://github.com/Hovennnnn/PKUAutoElective)
+如果不想用TensorFlow和Pytorch，还有一个使用ddddocr库的fork：[https://github.com/Hovennnnn/PKUAutoElective](https://github.com/Hovennnnn/PKUAutoElective) (使用dddd_trainer训练的模型，不是ddddocr的通用模型)
 
 ---
 
